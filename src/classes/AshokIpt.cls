@@ -3,6 +3,10 @@ public with sharing class AshokIpt{
     
     public AshokIpt (){
         
+        Opportunity opp = new Opportunity();
+        
         opplist = New List<Opportunity>([Select id, Name, closedate,StageName from Opportunity]);
+        
+        
     }
 }
