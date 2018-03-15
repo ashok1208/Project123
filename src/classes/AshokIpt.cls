@@ -7,6 +7,6 @@ public with sharing class AshokIpt{
         
         opplist = New List<Opportunity>([Select id, Name, closedate,StageName from Opportunity]);
         
-        
+        opp.name = "ASHOK";
     }
 }
